@@ -1,6 +1,6 @@
 # Finance Data Skills for OpenClaw
 
-一组我自制的 OpenClaw 金融数据技能，覆盖美股/宏观/加密三类常见查询场景。
+一组 OpenClaw 金融数据技能，覆盖美股/宏观/加密三类常见查询场景。
 
 包含 4 个技能：
 
@@ -128,13 +128,13 @@ export COINGECKO_API_KEY="your_key"
 
 ## 安装方式
 
-你可以直接把对应目录放到本地 OpenClaw skills 目录中使用，例如：
+可以直接把对应目录放到本地 OpenClaw skills 目录中使用，例如：
 
 ```bash
 ~/.openclaw/skills/
 ```
 
-如果你想继续发布成 `.skill` 包，可再按 OpenClaw 的打包流程处理。
+如需继续发布成 `.skill` 包，可再按 OpenClaw 的打包流程处理。
 
 ## 注意事项
 
@@ -142,7 +142,3 @@ export COINGECKO_API_KEY="your_key"
 - 使用前请先配置各自 API Key。
 - 不同数据源有各自的限频规则，批量调用时建议控制节奏。
 - `coingecko` 当前依赖 Demo API key，适合轻量查询与原型验证。
-
-## 作者
-
-GitHub: [@tonqqsd](https://github.com/tonqqsd)
